@@ -93,7 +93,7 @@ class LinkeedList {
 
     }
 
-    public void1
+    public void
     deleteAtPosition(int value) {
         Node current = first;
         Node previous = null;
