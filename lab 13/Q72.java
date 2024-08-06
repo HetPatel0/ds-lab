@@ -15,7 +15,7 @@ public class Q72 {
     Node last = null;
 
     //to insert at first position
-    public void insertFirst(int x){
+    public void insertFirst(int x) {
         Node newNode = new Node(x);
        
         if (first == null) {
@@ -29,7 +29,7 @@ public class Q72 {
         }
     }
     //inserting node at the end 
-    public void insertLast(int x){
+    public void insertLast(int x) {
         Node newNode = new Node(x);
         if (last== null) {
             first= newNode;
@@ -86,7 +86,7 @@ public class Q72 {
         c.insertFirst(5);
         c.insertFirst(6);
         c.insertFirst(7);
-        c.insertLast(10);
+        c.insertLast(10);   
         
         c.display();
         

@@ -44,7 +44,7 @@ class QueueLL {
         int temp = head.data;
         head = head.next;
         size--;
-        return temp;
+        return temp; 
     }
 
     public void display() {
